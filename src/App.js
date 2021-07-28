@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './componentes/img/repo-git.PNG'
+import Repo from './componentes/img/repo-git.PNG'
 
 export default function App(){
   const canal = () => {
@@ -15,7 +15,7 @@ export default function App(){
         <p>{curso()}</p>
       </header>
         <section>
-          <img src={Logo}/>
+          <img src={Repo} className="git-Repo" alt="Sumary"/>
         </section>
     </section>
     )
