@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Logo from './componentes/img/repo-git.PNG'
 
-function App() {
+export default function App(){
+  const canal = () => {
+    return ('CFB cursos')
+  }
+  function curso(){
+    return 'Curso de React'
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <section>
+      <header>
+        <p>{'Canal: '+  canal()}</p>
+        <p>{curso()}</p>
       </header>
-    </div>
-  );
+        <section>
+          <img src={Logo}/>
+        </section>
+    </section>
+    )
 }
-
-export default App;
