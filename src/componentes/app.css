@@ -1,0 +1,4 @@
+.texto{color:pink; font-size: 1em;}
+.caixa{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.caixa a {text-decoration: none; color: red;}
+.caixa a:hover {background-color: red; color: white;}
